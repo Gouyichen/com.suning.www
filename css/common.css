@@ -1,0 +1,34 @@
+/* 版心 */
+.container{
+    width: 990px;
+    margin: 0 auto;
+}
+/* 首页这个版心用的多 */
+.container2{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* 这个版心用的较少 */
+.container3{
+    width: 1000px;
+   margin: 0 auto;
+   padding-right: 10px;
+}
+/* 限时抢购 版心 */
+.container4{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 清除浮动 */
+.clearfix::after,
+.clearfix::before{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+/* 兼容 */
+.clear{
+    *zoom: 1;
+}

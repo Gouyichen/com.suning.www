@@ -1,0 +1,1772 @@
+
+/* 最右边栏固定定位 */
+.gu-ding-ding-wei-right {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 35px;
+    background: #383838;
+}
+
+.gu-ding-ding-wei-right img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55px;
+    height: 150px;
+}
+
+.gu-ding-ding-wei-right span {
+    position: absolute;
+    top: 180px;
+    right: 0;
+    height: 30px;
+    width: 35px;
+    line-height: 30px;
+    text-align: center;
+    color: #dd9809;
+}
+
+.gu-ding-ding-wei-right span:hover {
+    background: #ffaa01;
+    color: #ffeecc;
+}
+
+.gu-ding-ding-wei-right .gou-wu-che {
+    position: absolute;
+    top: 221px;
+    left: 0Px;
+    width: 35px;
+    height: 117px;
+    background: #383838;
+    color: #fff;
+    border-top: 1px solid #4d4d4d;
+    border-bottom: 1px solid #4d4d4d;
+}
+.gu-ding-ding-wei-right .gou-wu-che:hover{
+    background: #ffaa01;
+}
+.gu-ding-ding-wei-right .gou-wu-che .gwc{
+    position:relative;
+    top:2px;
+    left: 6px;
+    height: 30px;
+    width: 29px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+}
+.gu-ding-ding-wei-right .gou-wu-che .g-w-c{
+    position: relative;
+
+    right: 0;
+    top: 0;
+    display: block;
+    width:20px;
+    height: 54px;
+    font-size: 12px;
+    margin: 0 auto;
+    color: #fff;
+    line-height: 17px;
+}
+.gu-ding-ding-wei-right .gou-wu-che span:nth-child(3){
+    position: relative;
+    right: -8px;
+    top: 0;
+    display: inline-block;
+    width: 17px;
+    height: 15px;
+    padding: 0 2px;
+    background-color: #d00;
+    border-radius: 5px;
+    line-height: 15px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+.gu-ding-ding-wei-right .q-b-q{
+    position:absolute;
+    top:433px;
+    right: 0;
+    background: #383838;
+    width: 35px;
+    height: 105px;
+}
+
+.gu-ding-ding-wei-right .q-b-q span{
+    position: relative;
+    top: 8px;
+    right: 0px;
+    display: block;
+    color: #ffac00;
+    height: 30px;
+    width: 35px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: normal;
+}
+.gu-ding-ding-wei-right .q-b-q span:hover{
+    background:  #ffaa01;
+    color: #fff;
+}
+.gu-ding-ding-wei-right .q-b-q .buyiyang{
+   font-size: 19px;
+   font-weight: 700;
+}
+.gu-ding-ding-wei-right .xin-xi{
+   position: absolute;
+   top: 338px;
+   right: 0;
+   width: 35px;
+   height: 30px;
+   color: #ffac00;
+   text-align: center;
+   line-height: 30px;
+}
+.gu-ding-ding-wei-right .fu-wu{
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   background: #383838;
+   height: 156px;
+   width: 35px;
+}
+.gu-ding-ding-wei-right .fu-wu span{
+   position: relative;
+   top: 0;
+   left: 0;
+   display: block;
+   width: 35px;
+   height: 30px;
+   text-align: center;
+   line-height: 30px;
+   margin-top: 0px;
+}
+.gu-ding-ding-wei-right .fu-wu i{
+   position: relative;
+   top: 0;
+   left: 0;
+   color: #ffac00;
+   font-size: 12px;
+   width: 20px;
+  
+}
+
+
+
+
+
+/* 第一部分 头部导航 */
+.box-top{
+    height: 36px;
+    width: 100%;
+    background: #f5f5f5;
+}
+
+
+.ban-xin{
+    background: #f5f5f5;
+    height: 36px;
+}
+.box-top a{
+    font-size: 12px;
+    color:#666666;
+    margin: auto 13px;
+    line-height: 36px;
+}
+.box-top a:nth-child(6),.box-top a:nth-child(10){
+    color: #ff6d0c;
+}
+
+ /* 第二部分 搜索框部分 */
+ .tow-box{
+     height: 110px;
+     width: 100%;
+ }
+ .tow-box .ban-xin{
+     background: #fff;
+     height: 110px;
+ }
+ .tow-box .logo1{
+     float: left;
+ }
+ .tow-box img{
+    width: 190px;
+    height: 100px;
+ }
+
+ /* 输入框  推荐*/
+ .tow-box .shu-kuang{
+    float: right;
+    width: 688px;
+    height: 72px;
+    margin-top: 38px;
+ }
+ /* 框 */
+ .kuang{
+     width: 560px;
+     height: 39px;
+     border: 2px solid #ffaa00;
+     box-sizing: border-box;
+ }
+ .kuang span{
+     float: left;
+     width: 36px;
+     height: 35px;
+     border: none;
+     line-height: 35px;
+     text-align: center;
+    font-size: 19px;
+    color: #cccccc;
+ }
+ .kuang input{
+     float: left;
+     width: 420px;
+     height: 35px;
+     border: none;
+     color: #bbbbbb;
+ }
+ .kuang .an-niu{
+     float: left;
+     width: 100px;
+     height: 35px;
+     border: none;
+     background-color: #ffaa00;
+     font-size: 14px;
+     color: #fff;
+ }
+ .kuang .an-niu:hover{
+     background: #ff8800;
+ }
+ /* 推广 */
+ .tow-box .tui-guang{
+     height: 22px;
+     margin-top: 11px;
+ }
+ .tow-box .tui-guang a{
+     margin-top: 12px;
+     padding: 0 12px;
+     color: #999999;
+ }
+ .tow-box .tui-guang a:hover{
+     color: #ff6600;
+ }
+ .tow-box .tui-guang a:first-child{
+     padding-left: 0;
+ }
+
+
+ /* 第三部分  导航(全部商品分类) */
+ .san-dao-hang{
+     width: 100%;
+     height: 40px;
+ }
+ .san-dao-hang .s-p-f-l{
+     float: left;
+     width: 188px;
+     height: 40px;
+     background-color: #ff9900;
+ }
+ .san-dao-hang .s-p-f-l:hover{
+     background-color: #ff8800;
+ }
+ .san-dao-hang .s-p-f-l h2{
+    font-size: 13px;
+    color: #fff;
+    line-height: 43px;
+    margin-left: 28px;
+ }
+/* 选项 */
+.xuan-xiang{
+    float: left;
+    height: 38px;
+    padding-left: 13px;
+
+}
+.xuan-xiang a{
+    font-size: 15px;
+    color: #333333;
+    font-weight: 700;
+    padding: 0 12px 0 13px;
+    line-height: 38px;
+}
+.xuan-xiang a:hover{
+    color: #ff6600;
+}
+/*  第四 广告 */
+.gg1, .gg1 img{
+    width: 100%;
+    height: 80px;
+}
+/* 第五 广告 */
+.gg2, .gg2 img{
+    width: 100%;
+    height: 500px;
+}
+/*第六 必买爆款  广告 */
+
+.b-m-b-k{
+    width: 100%;
+    height: 98px;
+    background: #0e0d12;
+    padding: 9px 0 9px 0;
+    box-sizing: border-box;
+}
+.b-m-b-k img{
+    width: 100%;
+    height: 80px;
+}
+
+/* 必买爆款之商品展示 */
+.commodity{
+    width: 100%;
+    height: 1326px;
+    background: #0e0d12;
+}
+
+.commodity .ban-xing{
+    height: 1276px;
+    background: #0e0d12;
+    padding-top: 10px;
+}
+.commodity .xian{
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 190px;
+    height: 320px;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 9px;
+}
+.commodity .xian:hover{
+    position: relative;
+    left: 0;
+    top: -5px;
+    transition: all .3s ease;
+}
+
+.commodity .xian img{
+    width: 190px;
+    height: 190px;
+}
+.commodity .xian p{
+    color: #333;
+    width: 175px;
+    height: 32px;
+    overflow: hidden;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font: 14px/16px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    /* padding-left：1em */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.commodity .xian p:nth-child(3){
+    color: #f00000;
+    font-size: 12px;
+    width: 175px;
+    height: 12px;
+    box-sizing: border-box;
+    margin: 3px 0 7px;
+    padding: 0 0 0 15px;
+    line-height: 12px;
+}
+.commodity .xian p:nth-child(4){
+    color: #f00000;
+    font: 18px/18px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    font-style: normal;
+    text-align: left;
+    height: 18px;
+}
+.commodity .xian p em{
+    font-weight: 100;
+}
+.commodity .xian p:nth-child(5){
+    width: auto;
+    height: 12px;
+    color: #999;
+    font: 11px/12px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    overflow: hidden;
+}
+.commodity .xian p:nth-child(6){
+    width: 158px;
+    height: 17px;
+    background: #f00000;
+    color: #fff;
+    text-align: center;
+    margin-left: 16px;
+}
+
+/* 必买爆款2 */
+.huo-bao{
+    width: 100%;
+    height: 670px;
+    background: #0e0d12;
+}
+.huo-bao .ban-xing2{
+    height: 647px;
+    padding-top: 9px;
+}
+
+.huo-bao .xian{
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 190px;
+    height: 320px;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 9px;
+}
+.huo-bao .xian:hover{
+    position: relative;
+    left: 0;
+    top: -5px;
+    transition: all .3s ease;
+}
+
+.huo-bao .xian img{
+    width: 190px;
+    height: 190px;
+}
+.huo-bao .xian p{
+    color: #333;
+    width: 175px;
+    height: 32px;
+    overflow: hidden;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font: 14px/16px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    /* padding-left：1em */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.huo-bao .xian p:nth-child(3){
+    color: #f00000;
+    font-size: 12px;
+    width: 175px;
+    height: 12px;
+    box-sizing: border-box;
+    margin: 3px 0 7px;
+    padding: 0 0 0 15px;
+    line-height: 12px;
+}
+.huo-bao .xian p:nth-child(4){
+    color: #f00000;
+    font: 18px/18px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    font-style: normal;
+    text-align: left;
+    height: 18px;
+}
+.huo-bao .xian p em{
+    font-weight: 100;
+}
+.huo-bao .xian p:nth-child(5){
+    width: auto;
+    height: 12px;
+    color: #999;
+    font: 11px/12px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    overflow: hidden;
+}
+.huo-bao .xian p:nth-child(6){
+    width: 158px;
+    height: 17px;
+    background: #f00000;
+    color: #fff;
+    text-align: center;
+    margin-left: 16px;
+}
+/* 国际美装 */
+.international-clothing{
+    height: 98px;
+    width: 100%;
+    background: #0e0d12;
+}
+.ban-xing-mei{
+    height: 98px;
+    padding: 9px 10px 9px 0;
+    box-sizing: border-box;
+}
+.ban-xing-mei img{
+    width: 100%;
+    height: 100%;
+}
+/* 商品 */
+.commodity2{
+    width: 100%;
+    height: 1326px;
+    background: #0e0d12;
+}
+.commodity2 .ban-xin{
+    height: 1316px;
+    background: #0e0d12;
+    padding-top: 9px;
+}
+.commodity2 .xian{
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 190px;
+    height: 320px;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 9px;
+}
+.commodity2 .xian:hover{
+    position: relative;
+    left: 0;
+    top: -5px;
+    transition: all .3s ease;
+}
+
+.commodity2 .xian img{
+    width: 190px;
+    height: 190px;
+}
+.commodity2 .xian p{
+    color: #333;
+    width: 175px;
+    height: 32px;
+    overflow: hidden;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font: 14px/16px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    /* padding-left：1em */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.commodity2 .xian p:nth-child(3){
+    color: #f00000;
+    font-size: 12px;
+    width: 175px;
+    height: 12px;
+    box-sizing: border-box;
+    margin: 3px 0 7px;
+    padding: 0 0 0 15px;
+    line-height: 12px;
+}
+.commodity2 .xian p:nth-child(4){
+    color: #f00000;
+    font: 18px/18px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    font-style: normal;
+    text-align: left;
+    height: 18px;
+}
+.commodity2 .xian p em{
+    font-weight: 100;
+}
+.commodity2 .xian p:nth-child(5){
+    width: auto;
+    height: 12px;
+    color: #999;
+    font: 11px/12px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    overflow: hidden;
+}
+.commodity2 .xian p:nth-child(6){
+    width: 158px;
+    height: 17px;
+    background: #f00000;
+    color: #fff;
+    text-align: center;
+    margin-left: 16px;
+}
+/* 大牌母婴 */
+.Big-maternal-and-infant{
+    width: 100%;
+    height: 98px;
+    background: #0e0d12;
+}
+.Big-maternal-and-infant .ban-xin{
+    height: 98px;
+    padding: 9px 10px 9px 0;
+    box-sizing: border-box;
+    background: #0e0d12;
+}
+.Big-maternal-and-infant .ban-xin img{
+    width: 100%;
+    height: 100%;
+}
+/* 母婴用品展示(婴儿) */
+.infant{
+    width: 100%;
+    height: 1326px;
+    background: #0e0d12;
+}
+.infant .ban-xin{
+    height: 1316px;
+    background: #0e0d12;
+    padding-top: 9px;
+}
+.infant .xian{
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 190px;
+    height: 320px;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 9px;
+}
+.infant .xian:hover{
+    position: relative;
+    left: 0;
+    top: -5px;
+    transition: all .3s ease;
+}
+
+.infant .xian img{
+    width: 190px;
+    height: 190px;
+}
+.infant .xian p{
+    color: #333;
+    width: 175px;
+    height: 32px;
+    overflow: hidden;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font: 14px/16px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    /* padding-left：1em */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.infant .xian p:nth-child(3){
+    color: #f00000;
+    font-size: 12px;
+    width: 175px;
+    height: 12px;
+    box-sizing: border-box;
+    margin: 3px 0 7px;
+    padding: 0 0 0 15px;
+    line-height: 12px;
+}
+.infant .xian p:nth-child(4){
+    color: #f00000;
+    font: 18px/18px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    font-style: normal;
+    text-align: left;
+    height: 18px;
+}
+.infant .xian p em{
+    font-weight: 100;
+}
+.infant .xian p:nth-child(5){
+    width: auto;
+    height: 12px;
+    color: #999;
+    font: 11px/12px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    overflow: hidden;
+}
+.infant .xian p:nth-child(6){
+    width: 158px;
+    height: 17px;
+    background: #f00000;
+    color: #fff;
+    text-align: center;
+    margin-left: 16px;
+}
+
+/* 食品酒水 */
+.Food-and-beverage{
+    width: 100%;
+    height: 98px;
+    background: #0e0d12;
+}
+.Food-and-beverage .ban-xin{
+    height: 98px;
+    padding: 9px 10px 9px 0;
+    box-sizing: border-box;
+    background: #0e0d12;
+}
+.Food-and-beverage .ban-xin img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 食品酒水展示(食物) */
+.food{
+    width: 100%;
+    height: 1326px;
+    background: #0e0d12;
+}
+.food .ban-xin{
+    height: 1316px;
+    background: #0e0d12;
+    padding-top: 9px;
+}
+ /* 食品酒水展示  */
+ 
+ .food .xian{
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 190px;
+    height: 320px;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 9px;
+}
+.food  .xian:hover{
+    position: relative;
+    left: 0;
+    top: -5px;
+    transition: all .3s ease;
+}
+
+.food  .xian img{
+    width: 190px;
+    height: 190px;
+}
+.food  .xian p{
+    color: #333;
+    width: 175px;
+    height: 32px;
+    overflow: hidden;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font: 14px/16px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    /* padding-left：1em */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.food  .xian p:nth-child(3){
+    color: #f00000;
+    font-size: 12px;
+    width: 175px;
+    height: 12px;
+    box-sizing: border-box;
+    margin: 3px 0 7px;
+    padding: 0 0 0 15px;
+    line-height: 12px;
+}
+.food  .xian p:nth-child(4){
+    color: #f00000;
+    font: 18px/18px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    font-style: normal;
+    text-align: left;
+    height: 18px;
+}
+.food  .xian p em{
+    font-weight: 100;
+}
+.food  .xian p:nth-child(5){
+    width: auto;
+    height: 12px;
+    color: #999;
+    font: 11px/12px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    overflow: hidden;
+}
+.food  .xian p:nth-child(6){
+    width: 158px;
+    height: 17px;
+    background: #f00000;
+    color: #fff;
+    text-align: center;
+    margin-left: 16px;
+}
+/* 时尚箱包 */
+.Fashion-bags{
+    width: 100%;
+    height: 98px;
+    background: #0e0d12;
+}
+.Fashion-bags .ban-xin{
+    height: 98px;
+    padding: 9px 10px 9px 0;
+    box-sizing: border-box;
+    background: #0e0d12;
+}
+.Fashion-bags .ban-xin img{
+    width: 100%;
+    height: 100%;
+}
+.fashion{
+    width: 100%;
+    height: 670px;
+    background: #0e0d12;
+}
+.fashion .ban-xin{
+    height: 660px;
+    background: #0e0d12;
+    padding-top: 9px;
+}
+/* 时尚物品展示  */
+ 
+.fashion .xian{
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 190px;
+    height: 320px;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 9px;
+}
+.fashion  .xian:hover{
+    position: relative;
+    left: 0;
+    top: -5px;
+    transition: all .3s ease;
+}
+
+.fashion  .xian img{
+    width: 190px;
+    height: 190px;
+}
+.fashion  .xian p{
+    color: #333;
+    width: 175px;
+    height: 32px;
+    overflow: hidden;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font: 14px/16px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    /* padding-left：1em */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.fashion .xian p:nth-child(3){
+    color: #f00000;
+    font-size: 12px;
+    width: 175px;
+    height: 12px;
+    box-sizing: border-box;
+    margin: 3px 0 7px;
+    padding: 0 0 0 15px;
+    line-height: 12px;
+}
+.fashion .xian p:nth-child(4){
+    color: #f00000;
+    font: 18px/18px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    font-style: normal;
+    text-align: left;
+    height: 18px;
+}
+.fashion .xian p em{
+    font-weight: 100;
+}
+.fashion .xian p:nth-child(5){
+    width: auto;
+    height: 12px;
+    color: #999;
+    font: 11px/12px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    overflow: hidden;
+}
+.fashion .xian p:nth-child(6){
+    width: 158px;
+    height: 17px;
+    background: #f00000;
+    color: #fff;
+    text-align: center;
+    margin-left: 16px;
+}
+/* 时尚物品完结 */
+
+/* 3C家电 */
+.appliances{
+    height: 98px;
+    background: #0e0d12;
+}
+.appliances .ban-xin{
+    height: 98px;
+    padding: 9px 10px 9px 0;
+    box-sizing: border-box;
+    background: #0e0d12;
+}
+.appliances .ban-xin img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 家电展示框架 */
+
+.household-appliances {
+    width: 100%;
+    height: 1000px;
+    background: #0e0d12;
+}
+.household-appliances  .ban-xin{
+    height: 980px;
+    background: #0e0d12;
+    padding-top: 9px;
+}
+/* 家电销售  */
+ 
+.household-appliances .xian{
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 190px;
+    height: 320px;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 9px;
+}
+.household-appliances  .xian:hover{
+    position: relative;
+    left: 0;
+    top: -5px;
+    transition: all .3s ease;
+}
+
+.household-appliances  .xian img{
+    width: 190px;
+    height: 190px;
+}
+
+.household-appliances  .xian p{
+    color: #333;
+    width: 175px;
+    height: 32px;
+    overflow: hidden;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font: 14px/16px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    /* padding-left：1em */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.household-appliances .xian p:nth-child(3){
+    color: #f00000;
+    font-size: 12px;
+    width: 175px;
+    height: 12px;
+    box-sizing: border-box;
+    margin: 3px 0 7px;
+    padding: 0 0 0 15px;
+    line-height: 12px;
+}
+.household-appliances .xian p:nth-child(4){
+    color: #f00000;
+    font: 18px/18px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    font-style: normal;
+    text-align: left;
+    height: 18px;
+}
+.household-appliances .xian p em{
+    font-weight: 100;
+}
+.household-appliances .xian p:nth-child(5){
+    width: auto;
+    height: 12px;
+    color: #999;
+    font: 11px/12px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    overflow: hidden;
+}
+.household-appliances .xian p:nth-child(6){
+    width: 158px;
+    height: 17px;
+    background: #f00000;
+    color: #fff;
+    text-align: center;
+    margin-left: 16px;
+}
+ /* 品质家居 */
+
+ .Quality-household{
+    height: 98px;
+    background: #0e0d12;
+}
+.Quality-household .ban-xin{
+    height: 98px;
+    padding: 9px 10px 9px 0;
+    box-sizing: border-box;
+    background: #0e0d12;
+}
+.Quality-household .ban-xin img{
+    width: 100%;
+    height: 100%;
+}
+/* 品质家居框架 */
+.Quality-household-frame {
+    width: 100%;
+    height: 1000px;
+    background: #0e0d12;
+}
+.Quality-household-frame  .ban-xin{
+    height: 980px;
+    background: #0e0d12;
+    padding-top: 9px;
+}
+/* 物品展示 */
+.Quality-household-frame .xian{
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 190px;
+    height: 320px;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 9px;
+}
+.Quality-household-frame  .xian:hover{
+    position: relative;
+    left: 0;
+    top: -5px;
+    transition: all .3s ease;
+}
+
+.Quality-household-frame .xian img{
+    width: 190px;
+    height: 190px;
+}
+
+.Quality-household-frame .xian p{
+    color: #333;
+    width: 175px;
+    height: 32px;
+    overflow: hidden;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font: 14px/16px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    /* padding-left：1em */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.Quality-household-frame .xian p:nth-child(3){
+    color: #f00000;
+    font-size: 12px;
+    width: 175px;
+    height: 12px;
+    box-sizing: border-box;
+    margin: 3px 0 7px;
+    padding: 0 0 0 15px;
+    line-height: 12px;
+}
+.Quality-household-frame .xian p:nth-child(4){
+    color: #f00000;
+    font: 18px/18px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    font-style: normal;
+    text-align: left;
+    height: 18px;
+}
+.Quality-household-frame .xian p em{
+    font-weight: 100;
+}
+.Quality-household-frame .xian p:nth-child(5){
+    width: auto;
+    height: 12px;
+    color: #999;
+    font: 11px/12px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    overflow: hidden;
+}
+.Quality-household-frame .xian p:nth-child(6){
+    width: 158px;
+    height: 17px;
+    background: #f00000;
+    color: #fff;
+    text-align: center;
+    margin-left: 16px;
+}
+
+/* 营养保健 */
+.nutrition-and-health-care{
+    height: 98px;
+    background: #0e0d12;
+}
+.nutrition-and-health-care .ban-xin{
+    height: 98px;
+    padding: 9px 10px 9px 0;
+    box-sizing: border-box;
+    background: #0e0d12;
+}
+.nutrition-and-health-care .ban-xin img{
+    width: 100%;
+    height: 100%;
+}
+/* 营养保健框架 */
+.nutrition-and-health-care-frame {
+    width: 100%;
+    height: 1000px;
+    background: #0e0d12;
+}
+.nutrition-and-health-care-frame .ban-xin2{
+    height: 980px;
+    background: #0e0d12;
+    padding-top: 9px;
+}
+/* 物品展示 */
+.nutrition-and-health-care-frame .xian{
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 190px;
+    height: 320px;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 9px;
+}
+.nutrition-and-health-care-frame  .xian:hover{
+    position: relative;
+    left: 0;
+    top: -5px;
+    transition: all .3s ease;
+}
+
+.nutrition-and-health-care-frame .xian img{
+    width: 190px;
+    height: 190px;
+}
+
+.nutrition-and-health-care-frame .xian p{
+    color: #333;
+    width: 175px;
+    height: 32px;
+    overflow: hidden;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font: 14px/16px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    /* padding-left：1em */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.nutrition-and-health-care-frame .xian p:nth-child(3){
+    color: #f00000;
+    font-size: 12px;
+    width: 175px;
+    height: 12px;
+    box-sizing: border-box;
+    margin: 3px 0 7px;
+    padding: 0 0 0 15px;
+    line-height: 12px;
+}
+.nutrition-and-health-care-frame .xian p:nth-child(4){
+    color: #f00000;
+    font: 18px/18px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    font-style: normal;
+    text-align: left;
+    height: 18px;
+}
+.nutrition-and-health-care-frame .xian p em{
+    font-weight: 100;
+}
+.nutrition-and-health-care-frame .xian p:nth-child(5){
+    width: auto;
+    height: 12px;
+    color: #999;
+    font: 11px/12px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    overflow: hidden;
+}
+.nutrition-and-health-care-frame .xian p:nth-child(6){
+    width: 158px;
+    height: 17px;
+    background: #f00000;
+    color: #fff;
+    text-align: center;
+    margin-left: 16px;
+}
+/* LAOX精选 */
+.LAOX-choiceness{
+    height: 98px;
+    background: #0e0d12;
+}
+.LAOX-choiceness .ban-xin{
+    height: 98px;
+    padding: 9px 10px 9px 0;
+    box-sizing: border-box;
+    background: #0e0d12;
+}
+.LAOX-choiceness .ban-xin img{
+    width: 100%;
+    height: 100%;
+}
+
+/* LAOX精选框架 */
+.LAOX-choiceness-frame {
+    width: 100%;
+    height: 1000px;
+    background: #0e0d12;
+}
+.LAOX-choiceness-frame .ban-xin2{
+    height: 980px;
+    background: #0e0d12;
+    padding-top: 9px;
+}
+/* LAOX精选展示 */
+.LAOX-choiceness-frame .xian{
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 190px;
+    height: 320px;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 9px;
+}
+.LAOX-choiceness-frame  .xian:hover{
+    position: relative;
+    left: 0;
+    top: -5px;
+    transition: all .3s ease;
+}
+
+.LAOX-choiceness-frame .xian img{
+    width: 190px;
+    height: 190px;
+}
+
+.LAOX-choiceness-frame .xian p{
+    color: #333;
+    width: 175px;
+    height: 32px;
+    overflow: hidden;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font: 14px/16px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    /* padding-left：1em */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.LAOX-choiceness-frame .xian p:nth-child(3){
+    color: #f00000;
+    font-size: 12px;
+    width: 175px;
+    height: 12px;
+    box-sizing: border-box;
+    margin: 3px 0 7px;
+    padding: 0 0 0 15px;
+    line-height: 12px;
+}
+.LAOX-choiceness-frame .xian p:nth-child(4){
+    color: #f00000;
+    font: 18px/18px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    font-style: normal;
+    text-align: left;
+    height: 18px;
+}
+.LAOX-choiceness-frame .xian p em{
+    font-weight: 100;
+}
+.LAOX-choiceness-frame .xian p:nth-child(5){
+    width: auto;
+    height: 12px;
+    color: #999;
+    font: 11px/12px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    overflow: hidden;
+}
+.LAOX-choiceness-frame .xian p:nth-child(6){
+    width: 158px;
+    height: 17px;
+    background: #f00000;
+    color: #fff;
+    text-align: center;
+    margin-left: 16px;
+}
+
+
+/* 宠物食粮 */
+.Pet-food{
+    width: 100%;
+    height: 98px;
+    background: #0e0d12;
+}
+.Pet-food .ban-xin{
+    height: 98px;
+    padding: 9px 10px 9px 0;
+    box-sizing: border-box;
+    background: #0e0d12;
+}
+.Pet-food .ban-xin img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 宠物食粮框架 */
+.Pet-food-frame{
+    width: 100%;
+    height: 670px;
+    background: #0e0d12;
+}
+.Pet-food-frame .ban-xin{
+    height: 660px;
+    background: #0e0d12;
+    padding-top: 9px;
+}
+
+/* 宠物食粮展示 */
+ 
+.Pet-food-frame .xian{
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 190px;
+    height: 320px;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 9px;
+}
+.Pet-food-frame  .xian:hover{
+    position: relative;
+    left: 0;
+    top: -5px;
+    transition: all .3s ease;
+}
+
+.Pet-food-frame  .xian img{
+    width: 190px;
+    height: 190px;
+}
+.Pet-food-frame  .xian p{
+    color: #333;
+    width: 175px;
+    height: 32px;
+    overflow: hidden;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font: 14px/16px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    /* padding-left：1em */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.Pet-food-frame .xian p:nth-child(3){
+    color: #f00000;
+    font-size: 12px;
+    width: 175px;
+    height: 12px;
+    box-sizing: border-box;
+    margin: 3px 0 7px;
+    padding: 0 0 0 15px;
+    line-height: 12px;
+}
+.Pet-food-frame .xian p:nth-child(4){
+    color: #f00000;
+    font: 18px/18px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    font-style: normal;
+    text-align: left;
+    height: 18px;
+}
+.Pet-food-frame .xian p em{
+    font-weight: 100;
+}
+.Pet-food-frame .xian p:nth-child(5){
+    width: auto;
+    height: 12px;
+    color: #999;
+    font: 11px/12px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    overflow: hidden;
+}
+.Pet-food-frame .xian p:nth-child(6){
+    width: 158px;
+    height: 17px;
+    background: #f00000;
+    color: #fff;
+    text-align: center;
+    margin-left: 16px;
+}
+
+/* 个护美妆 */
+.a-guard-beauty-makeup{
+    height: 98px;
+    background: #0e0d12;
+}
+.a-guard-beauty-makeup .ban-xin{
+    height: 98px;
+    padding: 9px 10px 9px 0;
+    box-sizing: border-box;
+    background: #0e0d12;
+}
+.a-guard-beauty-makeup .ban-xin img{
+    width: 100%;
+    height: 100%;
+}
+/* 个户美妆框架 */
+.a-guard-beauty-makeup-frame {
+    width: 100%;
+    height: 1000px;
+    background: #0e0d12;
+}
+.a-guard-beauty-makeup-frame .ban-xin2{
+    height: 980px;
+    background: #0e0d12;
+    padding-top: 9px;
+}
+/* 个护美妆展示 */
+.a-guard-beauty-makeup-frame .xian{
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 190px;
+    height: 320px;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 9px;
+}
+.a-guard-beauty-makeup-frame  .xian:hover{
+    position: relative;
+    left: 0;
+    top: -5px;
+    transition: all .3s ease;
+}
+
+.a-guard-beauty-makeup-frame .xian img{
+    width: 190px;
+    height: 190px;
+}
+
+.a-guard-beauty-makeup-frame .xian p{
+    color: #333;
+    width: 175px;
+    height: 32px;
+    overflow: hidden;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font: 14px/16px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    /* padding-left：1em */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.a-guard-beauty-makeup-frame .xian p:nth-child(3){
+    color: #f00000;
+    font-size: 12px;
+    width: 175px;
+    height: 12px;
+    box-sizing: border-box;
+    margin: 3px 0 7px;
+    padding: 0 0 0 15px;
+    line-height: 12px;
+}
+.a-guard-beauty-makeup-frame .xian p:nth-child(4){
+    color: #f00000;
+    font: 18px/18px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    font-style: normal;
+    text-align: left;
+    height: 18px;
+}
+.a-guard-beauty-makeup-frame .xian p em{
+    font-weight: 100;
+}
+.a-guard-beauty-makeup-frame .xian p:nth-child(5){
+    width: auto;
+    height: 12px;
+    color: #999;
+    font: 11px/12px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    overflow: hidden;
+}
+.a-guard-beauty-makeup-frame .xian p:nth-child(6){
+    width: 158px;
+    height: 17px;
+    background: #f00000;
+    color: #fff;
+    text-align: center;
+    margin-left: 16px;
+}
+/* 机油养护 */
+.The-oil-curing{
+    height: 98px;
+    width: 100%;
+    background: #0e0d12;
+}
+.The-oil-curing .ban-xing-mei{
+    height: 98px;
+    padding: 9px 10px 9px 0;
+    box-sizing: border-box;
+}
+.The-oil-curing .ban-xing-mei img{
+    width: 100%;
+    height: 100%;
+}
+/* 机油养护框架 */
+.The-oil-curing-frame{
+    width: 100%;
+    height: 1326px;
+    background: #0e0d12;
+}
+.The-oil-curing-frame .ban-xin{
+    height: 1316px;
+    background: #0e0d12;
+    padding-top: 9px;
+}
+/* 机油养护展示 */
+.The-oil-curing-frame .xian{
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 190px;
+    height: 320px;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 9px;
+}
+.The-oil-curing-frame .xian:hover{
+    position: relative;
+    left: 0;
+    top: -5px;
+    transition: all .3s ease;
+}
+
+.The-oil-curing-frame .xian img{
+    width: 190px;
+    height: 190px;
+}
+.The-oil-curing-frame .xian p{
+    color: #333;
+    width: 175px;
+    height: 32px;
+    overflow: hidden;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font: 14px/16px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    /* padding-left：1em */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.The-oil-curing-frame .xian p:nth-child(3){
+    color: #f00000;
+    font-size: 12px;
+    width: 175px;
+    height: 12px;
+    box-sizing: border-box;
+    margin: 3px 0 7px;
+    padding: 0 0 0 15px;
+    line-height: 12px;
+}
+.The-oil-curing-frame .xian p:nth-child(4){
+    color: #f00000;
+    font: 18px/18px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    font-style: normal;
+    text-align: left;
+    height: 18px;
+}
+.The-oil-curing-frame .xian p em{
+    font-weight: 100;
+}
+.The-oil-curing-frame .xian p:nth-child(5){
+    width: auto;
+    height: 12px;
+    color: #999;
+    font: 11px/12px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    overflow: hidden;
+}
+.The-oil-curing-frame .xian p:nth-child(6){
+    width: 158px;
+    height: 17px;
+    background: #f00000;
+    color: #fff;
+    text-align: center;
+    margin-left: 16px;
+}
+/* 不一般的 广告 */
+/* 苏宁国际 国际直营 */
+.Suning-international{
+    box-sizing: border-box;
+    width: 100%;
+    height: 168px;
+    padding-bottom: 10px;
+    background: #0e0d12;
+}
+.Suning-international .ban-xin{
+    height: 158px;
+    background: #0e0d12;
+}
+ /* 售后服务 */
+.after-sales-service{
+    height: 98px;
+    width: 100%;
+    background: #f5f5f5;
+}
+.after-sales-service .ban-xin{
+    box-sizing: border-box;
+    height: 98px;
+    padding: 12px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+.after-sales-service .ban-xin dl{
+    float: left;
+    width: 200px;
+    height: 48px;
+    background: #f5f5f5;
+}
+.after-sales-service .ban-xin dl dt,.after-sales-service .ban-xin dl dt img{
+    width: 48px;
+    height: 48px;
+}
+.after-sales-service .ban-xin dl dt{
+    float: left;
+    margin-right: 8px;
+    color: #545454;
+}
+.after-sales-service .ban-xin dl dd{
+    float: left;
+}
+.after-sales-service .ban-xin dl dd p{
+    width: 140px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px;
+}
+.after-sales-service .ban-xin dl dd a{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+.after-sales-service .ban-xin dl dd a:hover{
+    color: #ff6600;
+}
+
+/* 购物指南 支付方式 物流派送 售后服务 商家服务  */
+.shopping-guide {
+    width: 100%;
+    height: 180px;
+    background: #f5f5f5;
+}
+.shopping-guide .ban-xin{
+    height: 180px;
+    /* width: 1000px; */
+    background: #f5f5f5;
+}
+.shopping-guide .shopping-guide-left{
+    float: left;
+    background: #f5f5f5;
+    width: 850px;
+    height: 180px;
+}
+.shopping-guide-left dl{
+    float: left;
+    width: 170px;
+    height: 160px;
+    background: #f5f5f5;
+}
+.shopping-guide-left dl dt{
+    width: 100%;
+    height: 35px;
+    color: #545454;
+    font-size: 14px;
+    overflow: hidden;
+    line-height: 40px;
+    font-weight: 700;
+}
+.shopping-guide-left dl dd{
+    height: 22px;
+    width: 100px;
+    color: #545454;
+    line-height: 22px;
+    font-size: 12px;
+}
+.shopping-guide-left dl dd a:hover{
+    color: #ff6600;
+}
+/* 身边苏宁 */
+.suning-around{
+    float: left;
+    width: 90px;
+    height: 180px;
+}
+.suning-around p{
+    width: 100%;
+    height: 35px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.suning-around a{
+    font: 12px/1.5 "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+}
+.suning-around a:hover{
+    color: #ff6600;
+}
+/* 最后一部分 */
+.the-last-one{
+    width: 100%;
+    height: 200px;
+    background: #fff;
+}
+.the-last-one .ban-xin{
+    padding-top: 15px;
+    height: 200px;
+    color: #333;
+    background: #fff;
+}
+.the-last-one .ban-xin p{
+    font-size: 12px;
+    width: 990px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+.the-last-one .ban-xin p span{
+   padding:0 8px;
+   color: #888;
+   line-height: 25px;
+   font-size: 16px;
+}
+.the-last-one .ban-xin p:nth-child(3){
+    color:#999;
+}
+.the-last-one .ban-xin p:nth-child(4){
+    color:#999;
+}
+.the-last-one .last-img{
+    height: 25px;
+    margin-top: 5px;
+    text-align: center;
+}
+.the-last-one .last-img a{
+    display: inline-block;
+    margin-right: 8px;
+}
+.the-last-one .last-img a img{
+    height: 24px;
+}
+.the-last-one .si a, .the-last-one .wu a, .the-last-one .liu{
+    color: #999;
+}

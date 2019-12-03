@@ -1,0 +1,110 @@
+/* 第一部分 头部导航 */
+.box-top{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 36px;
+  width: 100%;
+  background: #f5f5f5;
+  box-sizing: border-box;
+}
+
+
+.ban-xin{
+  background: #f5f5f5;
+  height: 36px;
+  box-sizing: border-box;
+}
+.box-top a{
+  font-size: 12px;
+  color:#666666;
+  margin: auto 13px;
+  line-height: 36px;
+}
+.box-top a:nth-child(6),.box-top a:nth-child(10){
+  color: #ff6d0c;
+}
+.box-top .box-left{
+  float: left;
+}
+.box-top .box-right{
+  float: right;
+}
+
+/* 第二部分 搜索框部分 */
+.tow-box{
+  height: 110px;
+  width: 100%;
+}
+.tow-box .ban-xin{
+  background: #fff;
+  height: 110px;
+}
+.tow-box .logo1{
+  float: left;
+}
+.tow-box img{
+  margin-top: 60px;
+ width: 139px;
+ height: 45px;
+}
+
+/* 输入框  推荐*/
+.tow-box .shu-kuang{
+ float: right;
+ width: 553px;
+ height: 72px;
+ margin-top: 60px;
+}
+/* 框 */
+.kuang{
+  width: 560px;
+  height: 39px;
+  border: 2px solid #ffaa00;
+  box-sizing: border-box;
+}
+.kuang span{
+  float: left;
+  width: 36px;
+  height: 35px;
+  border: none;
+  line-height: 35px;
+  text-align: center;
+ font-size: 19px;
+ color: #cccccc;
+}
+.kuang input{
+  float: left;
+  width: 420px;
+  height: 35px;
+  border: none;
+  color: #bbbbbb;
+}
+.kuang .an-niu{
+  float: left;
+  width: 100px;
+  height: 35px;
+  border: none;
+  background-color: #ffaa00;
+  font-size: 14px;
+  color: #fff;
+}
+.kuang .an-niu:hover{
+  background: #ff8800;
+}
+/* 推广 */
+.tow-box .tui-guang{
+  height: 22px;
+  margin-top: 11px;
+}
+.tow-box .tui-guang a{
+  margin-top: 12px;
+  padding: 0 3px;
+  color: #999999;
+}
+.tow-box .tui-guang a:hover{
+  color: #ff6600;
+}
+.tow-box .tui-guang a:first-child{
+  padding-left: 0;
+}
