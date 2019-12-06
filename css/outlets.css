@@ -396,10 +396,32 @@
   margin-right: 18px;
 }
 .ao-lai .nei-run .box-zhong{
+  position: relative;
+  top: 0;
+  left: 0;
   float: left;
   height: 620px;
   width: 586px;
   margin-right: 18px;
+ z-index: 1;
+ 
+}
+.ao-lai .nei-run .box-zhong .dan:hover{
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  /* width: 0;
+  height: 0; */
+}
+
+.ao-lai .nei-run .box-zhong .fu:hover{
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  /* width: 0;
+  height: 0; */
 }
 .ao-lai .nei-run .box-right{
   float: left;

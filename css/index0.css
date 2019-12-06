@@ -1,0 +1,285 @@
+body{
+  background:#f2f2f2;
+}
+.you-hui-jue{
+  height: 150px;
+  width: 100%;
+}
+.you-hui-jue .ban-xin-4{
+  height: 150px;
+}
+.you-hui-jue .he-zi{
+  box-sizing: border-box;
+  width: 1190;
+  height: 220px;
+  background: #000;
+}
+/* 折扣商品 */
+.zhe-kou{
+  
+  width: 100%;
+  height: 213px;
+}
+.zhe-kou .wu-ping{
+  float: left;
+  box-sizing: border-box;
+  background: #fff;
+  width: 230px;
+  height: 213px;
+  margin: 0 0 10px 10px;
+}
+.zhe-kou .wu-ping .tu{
+  padding-top: 20px;
+  margin-left: 51px;
+  width: 120px;
+  height: 120px;
+}
+.zhe-kou .wu-ping .tu img{
+  width: 120px;
+  height: 120px;
+}
+.zhe-kou .wu-ping p{
+  width: 210px;
+  height: 28px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+.zhe-kou .wu-ping .jian-shao{
+  background: #f20e74;
+  width: 229px;
+  height: 70px;
+}
+/* 显示抢购 */
+.xian-shi{
+  margin:20px 0;
+  width: 100%;
+  height: 330px;
+}
+.xian-shi .ban-xin-4{
+  height: 330px;
+}
+.xian-shi .zuo{
+  
+  float: left;
+  width: 790px;
+  height: 330px;
+  background: #000;
+}
+.xian-shi .zuo .zuo-shang{
+  position: relative;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 790px;
+  height: 46px;
+  box-sizing: border-box;
+}
+.xian-shi .zuo .zuo-shang .jiji{
+  position: absolute;
+  top: 8px;
+  left: 20px;
+}
+.xian-shi .zuo .zuo-shang .shi{
+  position: absolute;
+  font-size: 14px;
+  left: 120px;
+  top: 15px;
+}
+.xian-shi .zuo .zuo-shang .jian{
+  position: absolute;
+  left: 182px;
+  top: 8px;
+}
+.xian-shi .shang-you{
+  color: #333;
+  position: absolute;
+  left: 486px;
+  top: 0px;
+  width: 304px;
+  height: 36px;
+  background: #fff;
+}
+.xian-shi .shang-you li{
+  padding: 0 3px 0 3px;
+  float: left;
+  line-height: 36px;
+  margin: 0 23px 0 23px;
+}
+.xian-shi .shang-you li:hover{
+  color: #fff;
+  border: 1px solid #ff2222;
+  border-radius: 10px;
+  background: #ff2222;
+}
+.xian-shi .zuo .shangping{
+  float: left;
+  width: 197px;
+  height: 280px;
+  background: #fff;
+}
+.xian-shi .zuo .shangping .fang-shai{
+  width: 200px;
+  height: 198px;
+}
+.xian-shi .shangping p{
+ width: 170px; 
+ height: 20px;
+ margin: 0 0 0 20px;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    word-break: break-all;
+}
+.xian-shi .you{
+  float: right;
+  width: 390px;
+  height: 330px;
+  background: blue;
+  
+}
+.xian-shi .you .biao-ti{
+  width: 390px;
+  height: 46px;
+}
+.xian-shi .you .biao-ti .zuo{
+  float: left;
+  height: 46px;
+  width: 90px;
+}
+
+.xian-shi .you .biao-ti .youyou{
+  float: right;
+  height: 46px;
+  width: 67px;
+}
+.you .xiao-lun{
+  width: 390px;
+  height: 283px;
+  padding: 17px 20px 12px;
+}
+.you .xiao-lun .tu{
+  width: 350px;
+  height: 175px;
+}
+.you .xiao-lun img{
+  width: 350px;
+  height: 175px;
+}
+.you ul{
+  width: 363px;
+  height: 70px;
+}
+.you ul li{
+  width: 108px;
+  height: 70px;
+}
+.you ul li a img{
+  width: 90px;
+  height: 46px;
+}
+.you ul li p{
+  width: 106px;
+  height: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cai-ni-xi-huan{
+  width: 1190;
+  height: 6852px;
+}
+.cai-ni-xi-huan h3{
+  border-left: 4px solid #fe9901;
+  height: 24px;
+  font-size: 18px;
+  padding-left: 20px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+.cai-ni-xi-huan .da-fen-shui{
+  width: 1190;
+  height: 6822px;
+}
+.cai-ni-xi-huan .da-fen-shui .shui{
+  width: 234px;
+  height: 340px;
+  background: #fff;
+}
+.cai-ni-xi-huan .da-fen-shui .shui img{
+  width: 200px;
+  height: 200px;
+  margin: 20px 18.5px 0;
+}
+.cai-ni-xi-huan .da-fen-shui .shui img:hover{
+  width: 216px;
+  height: 220px;
+}
+.cai-ni-xi-huan .da-fen-shui .shui p:nth-child(1){
+  width: 193px;
+  height: 40px;
+
+}
+.ppp{
+  position: relative;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.cai-ni-xi-huan .da-fen-shui .shui p .ii{
+  display: inline-block;
+  margin: 15px 22px 1px 0;
+}
+/* .cai-ni-xi-huan .da-fen-shui .shui p .zy img{
+  float: left;
+  height: 10px;
+  width: 97px;
+} */
+
+.cai-ni-xi-huan .da-fen-shui .shui p{
+  box-sizing: border-box;
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  overflow: hidden;
+}
+.cai-ni-xi-huan .da-fen-shui .shui .san span{
+ 
+  
+ border: 1px solid #ff4400;
+ border-radius: 5px;
+ background: #ff4400;
+ color: #fff;
+}

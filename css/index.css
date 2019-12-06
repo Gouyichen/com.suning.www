@@ -1,4 +1,8 @@
 
+
+
+
+
 /* 最右边栏固定定位 */
 .gu-ding-ding-wei-right {
     position: fixed;
@@ -1770,3 +1774,26 @@
 .the-last-one .si a, .the-last-one .wu a, .the-last-one .liu{
     color: #999;
 }
+
+
+
+
+
+
+
+/* 右面固定闪烁样式 */
+.zuo-shan-shuo{
+    position: fixed;
+    top: 40px;
+    left: 247px;
+    width: 1400px;
+    height: 660px;
+    font-size: 72px;
+    text-align: center;
+  }
+  .zuofu{
+    float: left;
+  }
+  .youfu{
+    float: right;
+  }

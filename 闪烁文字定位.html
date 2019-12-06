@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+<style>
+.zuo-shan-shuo{
+  position: fixed;
+  top: 40px;
+  left: 247px;
+  width: 1400px;
+  height: 660px;
+  font-size: 72px;
+  text-align: center;
+}
+.zuofu{
+  float: left;
+}
+.youfu{
+  float: right;
+}
+</style>
+</head>
+<body>
+  <!-- 固定定位 -->
+  <div class="zuo-shan-shuo" id="haha">
+    <div class="zuofu">
+        脚<br>
+        踏<br>
+        日<br>
+        月<br>
+        摘<br>
+        星<br>
+        辰
+    </div>
+   
+<div class="youfu">
+  世<br>
+  界<br>
+  无<br>
+  我<br>
+  这<br>
+  般<br>
+  人
+</div>
+  </div>
+<script language="javascript">
+function changeColor(){
+var color="#f00|#0f0|#00f|#880|#808|#088|yellow|green|blue|gray";
+color=color.split("|");
+document.getElementById("haha").style.color=color[parseInt(Math.random() * color.length)];
+}
+setInterval("changeColor()",200);
+</script>
+</body>
+</html>
