@@ -322,6 +322,17 @@
 .header-box .shou-xin a:hover{
   color: #ff494f;
 }
+/* 下面定位盒子 */
+.xin-xin{
+  position: absolute;
+  left: 29px;
+  top: 12px;
+}
+.jing-tui{
+  position: absolute;
+  left: 53px;
+  top: 0;
+}
 /* 第四部分定位中 */
 .xuan-xiang{
   position: absolute;
@@ -411,8 +422,8 @@
   top: 0;
   left: 0;
   z-index: 3;
-  /* width: 0;
-  height: 0; */
+  width: 0;
+  height: 0;
 }
 
 .ao-lai .nei-run .box-zhong .fu:hover{
@@ -420,8 +431,8 @@
   top: 0;
   left: 0;
   z-index: 2;
-  /* width: 0;
-  height: 0; */
+  width: 0;
+  height: 0;
 }
 .ao-lai .nei-run .box-right{
   float: left;

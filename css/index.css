@@ -168,7 +168,9 @@
     width: 100%;
     background: #f5f5f5;
 }
-
+.box-top a:hover{
+color: #ff6d0c;
+}
 
 .ban-xin{
     background: #f5f5f5;
@@ -177,7 +179,7 @@
 .box-top a{
     font-size: 12px;
     color:#666666;
-    margin: auto 13px;
+    margin: auto 12px;
     line-height: 36px;
 }
 .box-top a:nth-child(6),.box-top a:nth-child(10){

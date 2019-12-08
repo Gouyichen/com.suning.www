@@ -278,6 +278,19 @@ font-size: 12px;
 text-decoration: line-through;
 color: #999;
 }
+.m-s-q{
+  height: 38px;
+   width:88px;
+   
+   text-align: center;
+   float: right;
+  background: #f8204b;
+}
+.m-s-q:hover{
+  background: #ff6d0c;
+  color: #fff;
+
+}
 /* 最后一部分代码 */
 .the-last-one{
   float: left;
